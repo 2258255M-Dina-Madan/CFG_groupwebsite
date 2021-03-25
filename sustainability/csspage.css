@@ -58,6 +58,55 @@ body {
     top:1.5%;
 }
 
+/*home page images*/ 
+
+.homepageimage1 img {
+    width: 500px; 
+    height: 250px;
+    margin: 50px 0px 0px 90px;
+  }
+
+  .homepageimage1 li {
+      float:left;
+      display:block;
+  }
+  
+  .homepageimage1 .content1 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    margin: 95% 0% 0% 6%;
+  }
+
+  .homepageimage2 img {
+    width: 500px; 
+    height: 250px;
+    margin: 50px 0px 0px 90px;
+  }
+
+  .homepageimage2 li {
+      float:left;
+      display:block;
+  }
+  
+  .homepageimage2 .content2 {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 20%; 
+    padding: 20px;
+    margin: 0% 0% -22% 6%;
+  }
+
+
+
+
 
 /*footer*/
 
@@ -222,6 +271,21 @@ img.cfgimage{
 
 #cooking{
     background-image: url(images/cookingheader.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 100px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+
+#energy{
+    background-image: url(images/energy_header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
